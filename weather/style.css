@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+}
+body {
+  background-color: black;
+}
+.container {
+  background-color: #ffffff;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.container-wrapper {
+  border: solid 1px rgb(81, 60, 186);
+  max-width: 650px;
+  margin: auto;
+}
+.current {
+  background-color: rgb(140, 140, 231);
+}
+.current-city {
+  font-size: 25px;
+  padding-top: 17px;
+  padding-left: 20px;
+  color: azure;
+}
+
+#digitalClock {
+  color: #ffffff;
+  width: 500px;
+  font-size: 25px;
+  line-height: 27px;
+  padding-top: 5px;
+  padding-left: 20px;
+}
+.picture {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 25px;
+}
+.temperature {
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+}
+.speed {
+  text-align: center;
+  color: #ffffff;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+.forecast-wrapper {
+  display: flex;
+  justify-content: space-between;
+  border: solid 1px rgb(81, 60, 186);
+  padding: 20px 20px;
+  align-items: center;
+}
+.forecast-time {
+  font-size: 16px;
+  color: black;
+}
+.data {
+  font-size: 16px;
+  color: black;
+  display: inline;
+}
+.temper {
+  font-size: 16px;
+  color: black;
+}
+.forecast-temper {
+  font-size: 16px;
+  color: black;
+}
+.forecast {
+  padding-bottom: 40px;
+}
